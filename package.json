@@ -1,0 +1,28 @@
+{
+  "name": "fightinggame",
+  "version": "1.0.0",
+  "description": "Fighting game",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node ./dist/index.js",
+    "buildStart": "build & start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gumbiWambo/FightingGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gumbiWambo/FightingGame/issues"
+  },
+  "homepage": "https://github.com/gumbiWambo/FightingGame#readme",
+  "devDependencies": {
+    "typescript": "^3.6.4",
+    "@types/express": "^4.17.13"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
